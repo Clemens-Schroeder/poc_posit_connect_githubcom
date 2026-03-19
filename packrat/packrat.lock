@@ -1,0 +1,174 @@
+PackratFormat: 1.4
+PackratVersion: 0.9.3
+RVersion: 4.4.1
+Repos: CRAN=https://cran.rstudio.com/
+
+Package: R6
+Source: CRAN
+Version: 2.6.1
+Hash: af3a76224cf388baeba1da636f942022
+
+Package: Rcpp
+Source: CRAN
+Version: 1.1.1
+Hash: cb0f9d312ee868a04247d1db158843ba
+
+Package: base64enc
+Source: CRAN
+Version: 0.1-6
+Hash: 19088eb9894acdae5d85d44a38128a29
+
+Package: bslib
+Source: CRAN
+Version: 0.10.0
+Hash: bace4fa8b721b20af81fd735a8ab9dc8
+Requires: base64enc, cachem, fastmap, htmltools, jquerylib, jsonlite,
+    lifecycle, memoise, mime, rlang, sass
+
+Package: cachem
+Source: CRAN
+Version: 1.1.0
+Hash: e943e4ba0ef214dd6f3ae3c792e48504
+Requires: fastmap, rlang
+
+Package: cli
+Source: CRAN
+Version: 3.6.5
+Hash: da56082be922304009e355f945311f4d
+
+Package: commonmark
+Source: CRAN
+Version: 2.0.0
+Hash: 38276289fdca1df9f5cc7d5103f7eea0
+
+Package: digest
+Source: CRAN
+Version: 0.6.39
+Hash: b1b9b024be3810bb159fe6bc84103a4b
+
+Package: fastmap
+Source: CRAN
+Version: 1.2.0
+Hash: acb7fd1dc95f992915e642c0d372abf4
+
+Package: fontawesome
+Source: CRAN
+Version: 0.5.3
+Hash: f0264c97eaf0a7bcee39c6ccb4a54c97
+Requires: htmltools, rlang
+
+Package: fs
+Source: CRAN
+Version: 1.6.7
+Hash: 7ec0a751a8c3b6425145550ebbb3b900
+
+Package: glue
+Source: CRAN
+Version: 1.8.0
+Hash: b8a23ab7dec05cbfd9778dbedef53bcd
+
+Package: htmltools
+Source: CRAN
+Version: 0.5.9
+Hash: 81af26b91f7895e25dd59be4642578cf
+Requires: base64enc, fastmap, rlang, digest
+
+Package: httpuv
+Source: CRAN
+Version: 1.6.17
+Hash: d0c16c1feff32899cd7c60d189ec4a2e
+Requires: R6, Rcpp, later, promises
+
+Package: jquerylib
+Source: CRAN
+Version: 0.1.4
+Hash: 338eb4374296b76bdee1e463c810113d
+Requires: htmltools
+
+Package: jsonlite
+Source: CRAN
+Version: 2.0.0
+Hash: 3667c0aaecb280a06c3fd065d7bfd533
+
+Package: later
+Source: CRAN
+Version: 1.4.8
+Hash: 3f31850157fa0897831a05dd30603771
+Requires: Rcpp, rlang
+
+Package: lifecycle
+Source: CRAN
+Version: 1.0.5
+Hash: b08b6ec2f159a398c30dc68355af797a
+Requires: rlang, cli
+
+Package: magrittr
+Source: CRAN
+Version: 2.0.4
+Hash: b3da2ff2bbe78a2e2a6ea182385fdb46
+
+Package: memoise
+Source: CRAN
+Version: 2.0.1
+Hash: fa0687ee20196d8aa4e2d724cb0f7199
+Requires: cachem, rlang
+
+Package: mime
+Source: CRAN
+Version: 0.13
+Hash: 4bcdb047b5062361a90ac2a3a2d38411
+
+Package: otel
+Source: CRAN
+Version: 0.2.0
+Hash: 44e4fc3496f83ce3668aa92c5b43106d
+
+Package: packrat
+Source: CRAN
+Version: 0.9.3
+Hash: c08a92f056c9c9a5c250fde58d989ba1
+
+Package: promises
+Source: CRAN
+Version: 1.5.0
+Hash: aea3db3b6e6d6d14a669484413fb60b8
+Requires: R6, fastmap, later, lifecycle, rlang, magrittr, otel
+
+Package: rappdirs
+Source: CRAN
+Version: 0.3.4
+Hash: b72fb24bc85f0426d0cae380786b5322
+
+Package: rlang
+Source: CRAN
+Version: 1.1.7
+Hash: 7f8f1805409afed74422249105f0f8b6
+
+Package: sass
+Source: CRAN
+Version: 0.4.10
+Hash: 33a0a30b11ad3e7677037bfbb471ad53
+Requires: htmltools, rlang, R6, fs, rappdirs
+
+Package: shiny
+Source: CRAN
+Version: 1.13.0
+Hash: 3354dc4a242f8b1bc0ac1f5c0537cbed
+Requires: R6, bslib, cachem, cli, commonmark, fastmap, fontawesome,
+    glue, htmltools, httpuv, jsonlite, later, lifecycle, mime, otel,
+    promises, rlang, sourcetools, withr, xtable
+
+Package: sourcetools
+Source: CRAN
+Version: 0.1.7-1
+Hash: a5577b3b55aeb055fce58b3a5a378223
+
+Package: withr
+Source: CRAN
+Version: 3.0.2
+Hash: 14182d6ff06c8e00a03b9c2fd2579b06
+
+Package: xtable
+Source: CRAN
+Version: 1.8-8
+Hash: d60e5bb61465f110e6dfa70d2a0d50ad
